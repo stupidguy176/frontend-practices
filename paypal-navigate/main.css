@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  background: #005ea6;
+  padding: 18px 0 0;
+}
+
+header.header {
+  width: 100%;
+  text-align: center;
+}
+
+header.header .content {
+  max-width: 1192px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+header.header .content a {
+  color: #ffffff;
+}
+
+header.header .content .logo {
+  position: relative;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: -6px;
+  width: 0;
+}
+
+header.header .content .logo a {
+  width: 136px;
+  height: 43px;
+  display: inline-block;
+  background: transparent url(https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg) center center no-repeat;
+  background-image: url(https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom-white.svg);
+  background-size: contain;
+  text-indent: -999em;
+}
+
+header.header .content nav {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: static;
+  display: inline-block;
+}
+
+header.header .content nav ul {
+  margin: 0 0 1rem;
+}
+
+header.header .content nav ul li {
+  display: inline-block;
+}
+
+header.header .content nav ul li a {
+  padding: 25px;
+  margin: 0 1px;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 2.7;
+  font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+}
+
+header.header .content nav ul li a:after {
+  content: '';
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  opacity: .75;
+  position: relative;
+  left: 5px;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: -1;
+  top: -2px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+header.header .content .btn {
+  position: relative;
+  float: right;
+  width: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header.header .content .btn div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+header.header .content .btn div a {
+  padding: 12px 18px;
+  font-size: 12px;
+  font-size: .75rem;
+  line-height: 12px;
+  border-radius: 25px;
+  min-width: 84px;
+  max-width: 320px;
+  margin-left: 9px;
+  text-decoration: none;
+}
+
+header.header .content .btn div a.btn-login {
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 1px #fff;
+          box-shadow: 0 0 0 1px #fff, 0 0 0 1px #fff;
+}
+
+header.header .content .btn div a.btn-sigup {
+  background-color: #fff;
+  color: #2c2e2f;
+}
+/*# sourceMappingURL=main.css.map */

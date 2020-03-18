@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    background: #005ea6;
+    padding: 18px 0 0;
+    &.header {
+        width: 100%;
+        text-align: center;
+        .content {    
+            max-width: 1192px;
+            padding-left: 48px;
+            padding-right: 48px;
+            a {
+                color: #ffffff;
+            }
+            .logo {
+                position: relative;
+                float: left;
+                box-sizing: border-box;
+                top: -6px;
+                width: 0;
+                a {
+                    width: 136px;
+                    height: 43px;
+                    display: inline-block;
+                    background: transparent url(https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg) center center no-repeat;
+                    background-image: url(https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom-white.svg);
+                    background-size: contain;
+                    text-indent: -999em;
+                }
+            }
+            nav {
+                box-sizing: border-box;
+                position: static;
+                display: inline-block;
+                ul {
+                    margin: 0 0 1rem;
+                    li {
+                        display: inline-block;
+                        a {
+                            padding: 25px;
+                            margin: 0 1px;
+                            background-color: transparent;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            line-height: 2.7;
+                            font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+                            &:after {
+                                content: '';
+                                display: inline-block;
+                                width: 9px;
+                                height: 9px;
+                                overflow: hidden;
+                                border: 1px solid #fff;
+                                border-top: 1px solid transparent;
+                                border-left: 1px solid transparent;
+                                opacity: .75;
+                                position: relative;
+                                left: 5px;
+                                transition: all .3s ease-out;
+                                box-sizing: border-box;
+                                z-index: -1;
+                                top: -2px;
+                                -ms-transform: rotate(45deg);
+                                transform: rotate(45deg);
+                            }
+                        }
+                        &:hover {
+                            .logo {
+                                a {
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn {
+                position: relative;
+                float: right;
+                width: 0;
+                box-sizing: border-box;
+                div {
+                    display: flex;
+                    flex: 0 1 auto;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: max-content;
+                    a {
+                        padding: 12px 18px;
+                        font-size: 12px;
+                        font-size: .75rem;
+                        line-height: 12px;
+                        border-radius: 25px;
+                        min-width: 84px;
+                        max-width: 320px;
+                        margin-left: 9px;
+                        text-decoration: none;
+                        &.btn-login {
+                            background-color: transparent;
+                            color: #fff;
+                            border: 0;
+                            box-shadow: 0 0 0 1px #fff, 0 0 0 1px #fff;
+                        }
+                        &.btn-sigup {
+                            background-color: #fff;
+                            color: #2c2e2f;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
