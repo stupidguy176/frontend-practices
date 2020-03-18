@@ -1,0 +1,122 @@
+body {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484848;
+}
+
+.footer {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+}
+
+.footer .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.footer .list .item {
+  padding-left: 12px;
+  padding-right: 12px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0%;
+          flex: 1 0 0%;
+}
+
+.footer .list .item h4 {
+  color: #222222;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.footer .list .item ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .list .item ul li {
+  margin-top: 16px;
+}
+
+.footer .list .item ul li a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.footer .list .item ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .info {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid #dddddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .info .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .info .detail .policy {
+  margin-left: 5px;
+}
+
+.footer .info .detail .policy a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.footer .info .detail .policy a:hover {
+  text-decoration: underline;
+}
+
+.footer .info .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .info .options .languages span.item {
+  margin-right: 24px;
+}
+
+.footer .info .options .languages span.item a {
+  color: #222222 !important;
+}
+
+.footer .info .options .socials {
+  margin-left: 32px;
+}
+
+.footer .info .options .socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .info .options .socials ul li {
+  margin-right: 24px;
+}
+
+a {
+  color: #222222 !important;
+}
+/*# sourceMappingURL=main.css.map */
