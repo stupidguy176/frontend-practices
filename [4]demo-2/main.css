@@ -1,0 +1,144 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background: url("https://www.photohdx.com/images/2017/04/clean-dark-purple-background-texture.jpg");
+  height: 25%;
+  color: #ffff;
+  padding: 15px;
+  position: relative;
+}
+
+.header .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .text {
+  padding-top: 25%;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.category {
+  padding-bottom: 30px;
+}
+
+.body {
+  background: #0000;
+  height: 75%;
+  padding: 30px 15px 15px 15px;
+}
+
+.body .title {
+  color: #80808a;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.body .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+.body .content .check {
+  width: 60px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body .content .check i {
+  font-size: 20px;
+  font-weight: 300;
+  color: #c6c6d2;
+}
+
+.body .content .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: solid 1px #c6c6d2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 60px);
+  height: 100%;
+}
+
+.body .content .item-body {
+  width: calc(100% - 30px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body .content .item-body .icon {
+  width: 50px;
+  font-size: 40px;
+}
+
+.body .content .item-body .icon.deleted {
+  display: none;
+}
+
+.body .content .item-body .status {
+  width: calc(100% - 50px);
+}
+
+.body .content .item-body .status .status-1 {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.body .content .item-body .status .status-1.deleted {
+  text-decoration: line-through;
+  color: #c6c6d2;
+}
+
+.body .content .item-body .status .status-2 {
+  font-size: 12px;
+  color: #67676ffe;
+}
+
+.body .content .item-start {
+  width: 30px;
+  color: #c6c6d2fe;
+  text-align: right;
+}
+
+.body .content .item-start.active {
+  color: #ffc107;
+}
+
+.btn-add {
+  position: absolute;
+  right: 20px;
+  bottom: -20px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffffff), color-stop(50%, #ffffff), color-stop(51%, white), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to top, #ffffff 0%, #ffffff 50%, white 51%, rgba(255, 255, 255, 0) 100%);
+}
+
+.btn-add i {
+  font-size: 44px;
+  color: #ff4107;
+}
+/*# sourceMappingURL=main.css.map */
