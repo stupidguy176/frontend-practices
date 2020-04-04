@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #6c6c6f;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 27px;
+}
+a {
+	transition: all 300ms ease-in-out;
+	&:hover, &:focus {
+		text-decoration: none;
+		outline: 0px;
+	}
+	
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
