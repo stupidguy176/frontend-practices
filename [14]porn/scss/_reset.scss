@@ -1,0 +1,78 @@
+@font-face {
+	font-family: "sfpro-bold";
+	src: url("../fonts/SFProDisplay-Bold.ttf?") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "sfpro-regular";
+	src: url("../fonts/SFProDisplay-Regular.ttf?") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	overflow-x: hidden !important;
+	-webkit-font-smoothing: antialiased;
+	font-family: sfpro-regular;
+}
+
+a,
+a:visited {
+	font-weight: 400;
+	text-decoration: none;
+}
+
+a {
+	color: #383838;
+	transition: all 0.5s;
+}
+
+a {
+	transition: all 300ms ease-in-out;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		outline: 0px;
+	}
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: sfpro-regular;
+	letter-spacing: 1.3pt;
+	color: #111111;
+	clear: both;
+	padding-bottom: 5px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
