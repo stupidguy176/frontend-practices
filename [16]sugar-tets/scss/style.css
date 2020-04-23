@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+a {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rufina', serif;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+section {
+  display: block;
+  position: relative;
+  padding: 50px 0;
+  width: 100%;
+}
+
+/**
+ *  Common CSS
+ */
+.btn-create {
+  background-color: #1d527e;
+  border: none;
+  padding: 8px 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-create:hover {
+  background-color: #1d527e;
+}
+
+input {
+  padding: 5px;
+  border: solid 2px #bcbcbc;
+}
+
+section {
+  padding: 50px;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-item {
+  width: 25%;
+  border: solid 1px #bcbcbc;
+  margin-left: 20px;
+  height: 100%;
+  min-height: 200px;
+}
+
+.list-item .title {
+  background-color: #1d527e;
+  color: #fff;
+  padding: 10px;
+}
+
+.list-item .title-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list-item .title-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list-item .content {
+  padding: 10px;
+}
+
+.list-item .add-new-item input {
+  width: 100%;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon-sm {
+  cursor: pointer;
+}
+
+.icon-sm img {
+  width: 25px;
+}
+
+.float-right {
+  float: right;
+}
+
+.btn-delete {
+  cursor: pointer;
+  float: right;
+}
+
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+
+.styled-checkbox + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  border: solid 1px #bcbcbc;
+}
+
+.styled-checkbox:focus + label:before {
+  -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+
+.styled-checkbox:checked + label {
+  text-decoration: line-through;
+  color: #aca7a7;
+}
+
+.styled-checkbox:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  background: #bcbcbc;
+  width: 2px;
+  height: 2px;
+  -webkit-box-shadow: 2px 0 0 #bcbcbc, 4px 0 0 #bcbcbc, 4px -2px 0 #bcbcbc, 4px -4px 0 #bcbcbc, 4px -6px 0 #bcbcbc, 4px -8px 0 #bcbcbc;
+          box-shadow: 2px 0 0 #bcbcbc, 4px 0 0 #bcbcbc, 4px -2px 0 #bcbcbc, 4px -4px 0 #bcbcbc, 4px -6px 0 #bcbcbc, 4px -8px 0 #bcbcbc;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.display-none {
+  display: none !important;
+}
+
+.display-block {
+  display: block !important;
+}
+
+.display-flex {
+  display: block !important;
+}
+
+.add-list {
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */

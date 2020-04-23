@@ -1,0 +1,140 @@
+@import "reset";
+@import "variables";
+
+/**
+ *  Common CSS
+ */
+
+.btn-create {
+    background-color: $primary-color;
+    border: none;
+    padding: 8px 15px;
+    color: $white;
+    cursor: pointer;
+    &:hover {
+        background-color: #1d527e;
+    }
+}
+
+input {
+    padding: 5px;
+    border: solid 2px $border-color;
+}
+
+section {
+    padding: 50px;
+}
+
+.list {
+    display: flex;
+    &-item {
+        width: 25%;
+        border: solid 1px $border-color;
+        margin-left: 20px;
+        height: 100%;
+        min-height: 200px;
+        .title {
+            background-color: $primary-color;
+            color: $white;
+            padding: 10px;
+            &-info {
+                display: flex;
+                justify-content: space-between;
+            }
+            &-add {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .content {
+            padding: 10px;
+        }
+        .add-new-item {
+            input {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.icons {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.icon-sm {
+    cursor: pointer;
+    img {
+        width: 25px;
+    }
+}
+
+.float-right {
+    float: right;
+}
+
+.btn-delete {
+    cursor: pointer;
+    float: right;
+}
+
+.styled-checkbox {
+    position: absolute; // take it out of document flow
+    opacity: 0; // hide it
+
+    & + label {
+        position: relative;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    // Box.
+    & + label:before {
+        content: "";
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: text-top;
+        width: 20px;
+        height: 20px;
+        border: solid 1px $border-color;
+    }
+
+    // Box focus
+    &:focus + label:before {
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    }
+
+    &:checked + label {
+        text-decoration: line-through;
+        color: #aca7a7;
+    }
+    &:checked + label:after {
+        content: "";
+        position: absolute;
+        left: 5px;
+        top: 9px;
+        background: $border-color;
+        width: 2px;
+        height: 2px;
+        box-shadow: 2px 0 0 $border-color, 4px 0 0 $border-color, 4px -2px 0 $border-color, 4px -4px 0 $border-color,
+            4px -6px 0 $border-color, 4px -8px 0 $border-color;
+        transform: rotate(45deg);
+    }
+}
+
+.display-none {
+    display: none !important;
+}
+
+.display-block {
+    display: block !important;
+}
+
+.display-flex {
+    display: block !important;
+}
+
+.add-list {
+    text-align: right;
+}
