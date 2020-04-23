@@ -27,12 +27,14 @@ section {
 
 .list {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     &-item {
         width: 25%;
         border: solid 1px $border-color;
-        margin-left: 20px;
         height: 100%;
         min-height: 200px;
+        margin: 2%;
         .title {
             background-color: $primary-color;
             color: $white;

@@ -16,10 +16,10 @@
   <main>
     <section>
       <div class="add-list">
-        <input type="text" placeholder="New Todo-List">
-        <button class="btn-create">Create</button>
+        <input id="input_item" type="text" placeholder="New Todo-List">
+        <button id="btn-create" class="btn-create" onclick="addNewList()">Create</button>
       </div>
-      <div class="list">
+      <div id="list-item-data" class="list">
         <div class="list-item">
           <div class="title">
             <div class="title-info">
@@ -72,9 +72,9 @@
             </div>
           </div>
           <div class="content">
-            <!-- <div class="add-new-item">
+            <div class="add-new-item">
               <input type="text" placeholder="New item">
-            </div> -->
+            </div>
             <ul>
               <li>
                 <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
