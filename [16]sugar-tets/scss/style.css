@@ -228,4 +228,8 @@ section {
   -webkit-box-shadow: -1px -1px 8px 0px #a3a3a3;
           box-shadow: -1px -1px 8px 0px #a3a3a3;
 }
+
+ul {
+  min-height: 200px;
+}
 /*# sourceMappingURL=style.css.map */

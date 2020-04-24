@@ -19,7 +19,7 @@
         <input id="input_item" type="text" placeholder="New Todo-List">
         <button id="btn-create" class="btn-create" onclick="addNewList()">Create</button>
       </div>
-      <div id="list-item-data" class="list">
+      <div id="list-item-data" class="drop-target list">
         <div class="list-item">
           <div class="title">
             <div class="title-info">
@@ -38,18 +38,18 @@
             <div class="add-new-item">
               <input type="text" placeholder="New item">
             </div>
-            <ul>
-              <li>
+            <ul class="drag-box">
+              <li draggable="true" class="drag-task" id="task4">
                 <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
                 <label for="styled-checkbox-1">Checkbox</label>
                 <span id="btn-delete" class="btn-delete">&#10005</span>
               </li>
-              <li>
+              <li draggable="true" class="drag-task" id="task5">
                 <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value1">
                 <label for="styled-checkbox-2">Checkbox</label>
                 <span id="btn-delete" class="btn-delete">&#10005</span>
               </li>
-              <li>
+              <li draggable="true" class="drag-task" id="task6">
                 <input class="styled-checkbox" id="styled-checkbox-3" type="checkbox" value="value1">
                 <label for="styled-checkbox-3">Checkbox</label>
                 <span id="btn-delete" class="btn-delete">&#10005</span>
@@ -75,18 +75,18 @@
             <div class="add-new-item">
               <input type="text" placeholder="New item">
             </div>
-            <ul>
-              <li>
+            <ul class="drag-box">
+              <li draggable="true" class="drag-task" id="task1">
                 <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
                 <label for="styled-checkbox-1">Checkbox</label>
                 <span id="btn-delete" class="btn-delete">&#10005</span>
               </li>
-              <li>
+              <li draggable="true" class="drag-task" id="task1">
                 <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value1">
                 <label for="styled-checkbox-2">Checkbox</label>
                 <span id="btn-delete" class="btn-delete">&#10005</span>
               </li>
-              <li>
+              <li draggable="true" class="drag-task" id="task1">
                 <input class="styled-checkbox" id="styled-checkbox-3" type="checkbox" value="value1">
                 <label for="styled-checkbox-3">Checkbox</label>
                 <span id="btn-delete" class="btn-delete">&#10005</span>
