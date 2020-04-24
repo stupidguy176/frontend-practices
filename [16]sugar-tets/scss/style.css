@@ -119,12 +119,16 @@ section {
           justify-content: space-between;
 }
 
-.list-item .content {
+.list-item .add-new-item {
   padding: 10px;
 }
 
 .list-item .add-new-item input {
   width: 100%;
+}
+
+.list-item ul li {
+  padding: 10px;
 }
 
 .icons {
@@ -213,5 +217,15 @@ section {
 
 .add-list {
   text-align: right;
+}
+
+.draggable {
+  position: relative;
+  cursor: default;
+}
+
+.moving-element {
+  -webkit-box-shadow: -1px -1px 8px 0px #a3a3a3;
+          box-shadow: -1px -1px 8px 0px #a3a3a3;
 }
 /*# sourceMappingURL=style.css.map */

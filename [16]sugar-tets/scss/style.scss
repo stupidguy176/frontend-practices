@@ -48,12 +48,15 @@ section {
                 justify-content: space-between;
             }
         }
-        .content {
-            padding: 10px;
-        }
         .add-new-item {
+            padding: 10px;
             input {
                 width: 100%;
+            }
+        }
+        ul {
+            li {
+                padding: 10px;
             }
         }
     }
@@ -139,4 +142,17 @@ section {
 
 .add-list {
     text-align: right;
+}
+
+.draggable {
+    position: relative;
+    cursor: default;
+}
+
+// .dragOver {
+//     background-color: rgb(232, 232, 255) !important;
+// }
+
+.moving-element {
+    box-shadow: -1px -1px 8px 0px rgba(163, 163, 163, 1);
 }
