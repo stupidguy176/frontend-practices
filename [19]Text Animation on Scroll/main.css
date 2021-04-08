@@ -1,0 +1,23 @@
+body{
+    margin:0px;
+    height: 300vh;
+  }
+  #main{
+    position:absolute;
+    top:50%;
+    left:30%;
+  }
+  .box{
+    width:200px;
+    height: 250px;
+    display:inline-block;
+    overflow:hidden;
+  }
+  .letter{
+    font-family: fantasy;
+    font-size: 8cm;
+    line-height: 250px;
+    position:relative;
+    left:-160px;
+    transition: all .25s linear;
+  }

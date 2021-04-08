@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f2f2f;
+}
+#main {
+    height: 600px;
+    width: 900px;
+    position: relative;
+    top: 20;
+    left: 200;
+    /* background-image: url(sample4.jpg);
+    background-size: cover; */
+}
+#d1 {
+    height: 200px;
+    width: 150px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.5);
+    position: absolute;
+    top: 150;
+    background-image: url(sample4.jpg);
+    background-size: 1150px 650px;
+    background-position: 0 -150px;  /*left top / x y*/
+    z-index: 2;
+}
+#d2 {
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 80;
+    left: 100;
+    background-image: url(sample4.jpg);
+    background-size: 1150px 650px;
+    background-position:-100px -80px;
+    z-index: 1;
+}
+#d3 {
+    height: 600px;
+    width: 400px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 300;
+    background-image: url(sample4.jpg);
+    background-size: 1150px 650px;
+    background-position: -300 0px;
+    z-index: 3;
+}
+#d4 {
+    height: 500px;
+    width: 400px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.5);
+    position: absolute;
+    top: 30;
+    left: 500;
+    background-image: url(sample4.jpg);
+    background-size: 1150px 650px;
+    background-position: -500 -20px;
+    z-index: 1;
+}
+#content {
+    height: auto;
+    width: auto;
+    border-right: 3px solid white;
+    text-align: right;
+    font-family: fantasy;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    top: 200;
+    right: 100;
+    z-index: 99;
+}
